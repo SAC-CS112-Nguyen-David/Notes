@@ -6,7 +6,7 @@ public class RandomNumber {
 	public static void main(String[] args) {
 	{
 		int high = 1 +(int)(Math.random()*9000000);
-		int low = 1 +(int)(Math.random()*50);
+		int low = 1 +(int)(Math.random()*100);
 		System.out.print ("High number is: ");
 		System.out.println (high);
 		System.out.println ();
@@ -15,3 +15,11 @@ public class RandomNumber {
 		}
 	}
 }
+
+
+/*GetANumber (int lo, int hi)
+ * GetANumber()
+ * GetLowNumber()
+ * GetHighNumber()
+ * GetHerNumber()
+ */
