@@ -3,11 +3,15 @@ import java.util.Random;
 
 public class RandomNumber {
 
-	public static void main (String[] args) {
-		// TODO Auto-generated method stub
-		int high = 1 +(int)(Math.random()*10000000);
-		System.out.print ("Number is: ");
+	public static void main(String[] args) {
+	{
+		int high = 1 +(int)(Math.random()*9000000);
+		int low = 1 +(int)(Math.random()*50);
+		System.out.print ("High number is: ");
 		System.out.println (high);
+		System.out.println ();
+		System.out.print ("Low number is: ");
+		System.out.println (low);
+		}
 	}
-
 }
