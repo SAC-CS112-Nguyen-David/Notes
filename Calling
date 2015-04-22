@@ -1,0 +1,36 @@
+//Main file
+public class Main {
+
+	 public static void main(String[] args) {
+
+		 Student string1 = new Student ("Georgia", "Dome");
+
+		 Student string2 = new Student ("Abby", "Stracksen");
+
+		 System.out.println ( string1.getFirstName() + " " + string1.getLastName());
+
+		 System.out.println ( string2.getFirstName() + " " + string2.getLastName());
+
+	 }
+
+}
+
+
+//Student Name files
+public class Student {
+	 private String firstName ;
+	 private String lastName;
+
+	 public Student (String first, String last){
+		 firstName = first;
+		 lastName = last;
+	 }
+
+ public String getFirstName(){
+		 return firstName;
+	 }
+
+	 public String getLastName(){
+		 return lastName;
+	 }
+}
